@@ -1,6 +1,5 @@
 #body{
     background-color: #565A5C;
-    height: 100%;
 }
 
 #header{
@@ -9,7 +8,7 @@
    text-align: center;
 }
 
-h1 {
+h1{
     position: absolute;
     top:0;
     left: 0;
@@ -23,6 +22,17 @@ h1 {
     text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
 }
 
+p{
+    font-size: 24;
+    font-family: 'Orbitron';
+    color: rgb(255, 255, 255);
+}
+
+#text{
+    font-family: 'Orbitron';
+    color: rgb(255, 255, 255);
+}
+
 #showmenu{
     position: relative;
     top: 0;
@@ -32,9 +42,9 @@ h1 {
 
 #myname{
     position:relative;
-    top: -40px;
+    top: 0px;
     text-align:center;
     font-size: 64;
-    font-family: 'Anaheim';
-    color: rgb(208, 184, 128);
+    font-family: 'Orbitron';
+    color: rgb(255, 255, 255);
 }

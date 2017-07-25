@@ -3,4 +3,6 @@ $(document).ready(function(){
     document.getElementById('showmenu').onclick = function(){
         $('.ui.sidebar').sidebar('toggle');
     }
+    $('.ui.sticky').sticky();
+;
 });
